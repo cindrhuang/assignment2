@@ -1,0 +1,43 @@
+.item {
+    display: flex;
+    margin: 2rem;
+    text-align: left;
+    border-bottom: 1px solid rgb(210, 210, 210);
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+}
+
+.item-price {
+    margin-left: auto;
+}
+
+.item-photo {
+    width:200px;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.item h1 {
+    font-size: 1.5rem;
+}
+
+.item li {
+    margin: 1rem;
+}
+
+.item a {
+    color: black;
+    text-decoration: none;
+}
+
+.item a:hover {
+    text-decoration: underline;
+}
+
+.item-desc {
+    margin-top: 0rem;
+}
