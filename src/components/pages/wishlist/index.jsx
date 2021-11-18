@@ -2,9 +2,6 @@ import "./styles.css";
 import { WishlistItem } from "../../wishlistItem";
 
 export const WishlistPage = () => {
-
-
-
     return (
         <div className="wishlist-page">
             <div className="wishlist-content">
