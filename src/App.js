@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import { Navbar } from "./components/navbar/index";
+import { Footer } from "./components/footer/index";
 import { Homepage } from "./components/pages/homepage";
 import { WishlistPage } from "./components/pages/wishlist";
 
@@ -23,6 +24,7 @@ function App() {
             <WishlistPage/>
           </Route>
         </Switch>
+        <Footer/>
       </Router>
     </div>
   );

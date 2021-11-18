@@ -4,17 +4,14 @@
     border-bottom: 1px solid rgb(158, 158, 158);
 }
 
-.wishlist-page {
-    display: flex;
-    flex-direction: row;
-}
-
-.wishlist-summary {
-    display: flex;
-    color: gray;
-}
-
-.wishlist-summary h1 {
+/*.wishlist-summary {*/
+    /*display: flex;
     margin-left: auto;
+    color: gray;
+    max-width: 500px;
+}*/
+
+/*.wishlist-summary h1 {*/
+    /*margin-left: auto;
     color: black;
-}
+}*/

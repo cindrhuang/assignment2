@@ -15,13 +15,15 @@ export const WishlistPage = () => {
 
                 <div className="item-list">
                     <WishlistItem key={WishlistItem.id} image={WishlistItem.image}/>
+                    <WishlistItem key={WishlistItem.id} image={WishlistItem.image}/>
+                    <WishlistItem key={WishlistItem.id} image={WishlistItem.image}/>
                 </div>
             </div>
-
-            <div className="wishlist-summary">
+            
+            {/*<div className="wishlist-summary">
                 <h2>Regular price</h2>
                 <h1>$498</h1>
-            </div>
+            </div>*/}
         </div>
     )
 }
