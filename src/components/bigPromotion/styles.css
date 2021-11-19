@@ -1,0 +1,48 @@
+.big-promo {
+    text-align: left;
+    
+}
+
+.big-promo-main {
+    position: relative;
+    margin: 10px;
+}
+
+.big-promo-title {
+    position: absolute;
+    color: white;
+    top: 160px;
+    left: 20px;
+    max-width: 500px;
+}
+
+.big-promo-details {
+    position: absolute;
+    color: white;
+    max-width: 300px;
+    top: 215px;
+    left: 20px;
+}
+
+.big-promo-arrow {
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    top: 220px;
+    left: 450px;
+}
+
+.big-promo-img {
+    max-width: 500px;
+    height: auto;
+}
+
+.big-promo-img:hover {
+    cursor: pointer;
+}
+
+.big-promo-sub {
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+}
+

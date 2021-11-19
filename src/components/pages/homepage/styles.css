@@ -1,0 +1,10 @@
+.homepage {
+    align-content: center;
+}
+
+.homepage-big-promo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+}
