@@ -1,4 +1,6 @@
 import "./styles.css";
+import { Button } from "../button";
+import { BsFacebook, BsInstagram, BsPinterest, BsTwitter, BsYoutube } from "react-icons/bs";
 
 export const Footer = () => {
     return (
@@ -6,6 +8,11 @@ export const Footer = () => {
             <div className="join-ikea">
                 <h2>IKEA Family</h2>
                 <p>Bring your ideas to life with rewards, inspiration, discounts and a few surprises along the way. <u>Learn more</u>.</p>
+                <Button text={<BsFacebook/>}/>
+                <Button text={<BsInstagram/>}/>
+                <Button text={<BsPinterest/>}/>
+                <Button text={<BsTwitter/>}/>
+                <Button text={<BsYoutube/>}/>
             </div>
             <ul className="footer-help">
                 <h2>Help</h2>

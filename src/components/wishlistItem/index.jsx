@@ -1,12 +1,16 @@
 import "./styles.css";
 import { Link } from "react-router-dom";
-import { Button } from "react-router-dom";
+import { Button } from "../button";
 import { AiOutlineShopping } from "react-icons/ai"
 
 import armchair from "../../images/EkeroArmchair.PNG";
 
 export const WishlistItem = (props) => {
     const {image, name, description, price, id} = props;
+
+    const addToCart = () => {
+        alert("Item added to shopping cart!");
+    }
 
     return (
         <div className="item">
@@ -16,7 +20,7 @@ export const WishlistItem = (props) => {
                     <h1 className="item-name"> {name} </h1>
                 </Link>
                 <p className="item-desc"> {description} </p>
-                <button className="cart-button"><AiOutlineShopping/></button> 
+                <Button type="cart-button" action={addToCart} text={<AiOutlineShopping/>}/>
             </div>
             <h1 className="item-price"> {"$" + price} </h1>
         </div>

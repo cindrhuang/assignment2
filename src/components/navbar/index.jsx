@@ -3,7 +3,11 @@ import {
 } from "react-router-dom";
 
 import "./styles.css"
+import { Button } from "../button";
 import ikeaLogo from "../../images/IkeaLogo.png";
+import { GoLocation } from "react-icons/go"
+import { FiTruck } from "react-icons/fi"
+import { AiOutlineUser, AiOutlineHeart, AiOutlineShopping } from "react-icons/ai"
 
 export const Navbar = () => {
     return (
@@ -20,6 +24,14 @@ export const Navbar = () => {
                         Wishlist
                     </NavLink>
                 </li>
+            <input className="search-bar" type="text" placeholder="What are you looking for?"/>
+            <div className="navbar-icons">
+                <Button text={<GoLocation/>}/>
+                <Button text={<FiTruck/>}/>
+                <Button text={<AiOutlineUser/>}/>
+                <Button text={<AiOutlineHeart/>}/>
+                <Button text={<AiOutlineShopping/>}/>
+            </div>
             </ul>
         </nav>
     )

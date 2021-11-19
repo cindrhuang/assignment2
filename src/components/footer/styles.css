@@ -35,3 +35,8 @@
 .footer li {
     color: rgb(70, 70, 70);
 }
+
+.footer Button {
+    margin-top: 3rem;
+    margin-right: 20px;
+}
