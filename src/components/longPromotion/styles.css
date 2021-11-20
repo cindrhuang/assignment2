@@ -1,0 +1,32 @@
+.long-promo {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.long-promo-text {
+    padding: 10px 20px 30px;
+}
+
+.long-promo-title {
+    font-size: 25px;
+}
+
+.long-promo-details {
+    padding-bottom: 70px;
+}
+
+.next {
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+}
+
+.next:hover {
+    background-color: rgb(60, 60, 60);
+    border: none;
+}

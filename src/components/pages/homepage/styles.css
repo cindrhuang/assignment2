@@ -1,5 +1,7 @@
 .homepage {
     align-content: center;
+    text-align: left;
+    margin-bottom: 5rem;
 }
 
 .homepage-big-promo {
@@ -7,4 +9,17 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 2rem;
+}
+
+.right-now {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.homepage-long-promo {
+    display: flex;
+    overflow: scroll;
+    overflow-y: hidden;
 }
