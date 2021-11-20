@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Technical Design Document
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Cindy Huang** | ITEC4012A Assignment 2
 
-## Available Scripts
+## Website Choice
 
-In the project directory, you can run:
+For this assignment, I chose to do the IKEA website (https://www.ikea.com/ca/en/). I recreared the homepage, and wishlist page (https://www.ikea.com/ca/en/favourites/). The wishlist page style on the IKEA website can be seen after adding a few items into it.
 
-### `npm start`
+I decided to recreate those two pages, as I felt the homepage had many opportunities to show the use of props and components, while the wishlist page was just something I found unique.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The components I created are: 
+- Navbar
+- Footer
+- Homepage
+- Wishlist Page
+- Wishlist Item
+- Button
+- Big Promotion
+- Long Promotion
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Reason for Components
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I had two components that were not reusable which were the pages. The other components were all made so they could be reused. Navbar and Footer always appear the same on all pages; however Button, Wishlist Item, Big Promotion, and Long Promotion are all components that can be reused and configurable. This makes styling and consistency much easier since these are used many times.
